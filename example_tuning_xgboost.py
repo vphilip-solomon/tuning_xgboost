@@ -5,9 +5,12 @@ author: teezeit
 This script optimizes parameters for xgboost using greeedy gridsearch + crossvalidation
 """
 # Imports
+print("Test version -Changes made on 12052021")
 import numpy as np
 import xgboost as xgb
 import tuning_xgboost
+
+
 
 #. define gridsearch parameters
 #   a) model complexity
